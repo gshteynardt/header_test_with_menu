@@ -1,7 +1,7 @@
 {
   "name": "header_test",
   "version": "0.1.0",
-  "homepage": "https://germanshtey.github.io/header_test_with_menu/.",
+  "homepage": "https://germanshtey.github.io/header_test_with_menu/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
