@@ -1,0 +1,23 @@
+.header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	margin-bottom: 50vh;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (width <= 720px) {
+	.header__nav {
+		position: absolute;
+		left: 0;
+		top: 54px;
+		z-index: 100;
+		box-sizing: border-box;
+	}
+	
+	.header__link {
+		width: 100%;
+	}
+}

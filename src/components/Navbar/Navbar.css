@@ -1,0 +1,39 @@
+.navbar {
+	width: inherit;
+	display: flex;
+	justify-content: space-between;
+	padding: 19px 104px 13px;
+}
+
+.logo_theme_white {
+	fill: #fff;
+}
+
+.logo_theme_black {
+	fill: #000;
+}
+
+.navbar_theme_white {
+	background-color: #fff;
+}
+
+.navbar_theme_black {
+	background-color: #1A1B22;
+}
+
+.navbar_nav-bg {
+	background-color: #1A1B22;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+	.navbar {
+		padding: 14px 40px 12px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.navbar {
+		padding: 16px;
+	}
+}
